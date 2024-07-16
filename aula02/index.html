@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <script src='main.js'></script>
+    <!-- Questão 1 Link o arquivo style.css nesse html. -->
+
+    <title>Exercicio CSS</title>
+  </head>
+  <!-- Remove a Margin do body e coloque o tamanho horizontal de 100vw e vertical de 100vh -->
+  <body >
+    <!-- 
+      Definir a tag header com position: fixed, largura de 100%, altura de 50px, cor de fundo azul escuro, e cor do texto branca.
+      Adicionar um espaçamento interno de 10px ao header.
+      Garantir que o conteúdo da página não fique sobreposto pelo header adicionando um padding-top ao main.
+    -->
+
+    <header>
+      <!-- 
+      Estilize esse H1 utilizando classe
+      - Alterar a cor do texto do <h1> para azul.
+      - Centralizar o texto.
+      - Alterar a fonte para Arial. 
+      -->
+      <h1>Título Principal</h1>
+    </header>
+    <main>
+      <h2>Subtitulo</h2>
+      <!-- 
+        Alterar a cor do texto para cinza escuro.
+        Definir a largura do parágrafo para 600px w.
+        Adicionar um espaçamento interno (padding) de 20px.
+        Definir uma borda sólida de 1px na cor preta ao redor do parágrafo.
+      -->
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic.
+      </p>
+
+      <!-- 
+        Remover os marcadores da lista.
+        Alterar a cor de fundo dos itens da lista para um tom claro de cinza.
+        Adicionar um espaçamento interno (padding) de 10px aos itens da lista.
+        Adicionar um espaçamento entre os itens da lista (margin-bottom de 5px).
+      -->
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <!-- 
+      Alterar a cor de fundo dos botões para verde.
+      Alterar a cor do texto dos botões para branco.
+      Adicionar um efeito de borda arredondada (border-radius de 5px).
+      Adicionar um efeito de sombra (box-shadow) ao passar o mouse sobre o botão ".class:hover {}".
+      -->
+
+      <button class="button01">Botão 1</button>
+      <button class="button01">Botão 2</button>
+
+      <!-- 
+        Definir a classe .container com uma largura de 400px e altura de 400px, cor de fundo cinza claro.
+        Definir a classe .relative-box com position: relative, largura e altura de 200px, cor de fundo azul claro.
+        Definir a classe .absolute-box com position: absolute, largura e altura de 100px, cor de fundo vermelho, posicionado 20px a partir do topo e 20px a partir da esquerda da caixa relativa.
+      -->
+      <div class="container">
+        <div class="relative-box">
+          Caixa Relativa
+          <div class="absolute-box">Caixa Absoluta</div>
+        </div>
+      </div>
+
+      <!-- Link para estudar/revisar https://origamid.com/projetos/flexbox-guia-completo/ -->
+      <!-- 
+        Definir a classe .container como um contêiner Flexbox.
+        Centralizar os itens dentro do contêiner tanto horizontalmente quanto verticalmente.
+        Definir um espaçamento entre os itens (space-between).
+      -->
+      <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+      </div>
+
+      <!--  -->
+    </main>
+
+    <!-- Coloque um cor de fundo no footer e centralize o texto -->
+    <footer>
+      <p>Sarah Bernadino</p>
+    </footer>
+  </body>
+</html>
