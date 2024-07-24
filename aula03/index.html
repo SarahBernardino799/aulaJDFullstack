@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta email="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Posts</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1>Posts</h1>
+      <div class="input-form">
+        <label>Nome</label>
+        <input id="input-username" placeholder="Escreva seu nome" />
+      </div>
+      <div class="input-form">
+        <label>Título</label>
+        <input id="input-titulo" placeholder="Escreva o título" />
+      </div>
+      <div class="input-form">
+        <label>Mensagem</label>
+        <textarea
+          id="input-post"
+          placeholder="Escreva aqui seu Post"
+        ></textarea>
+      </div>
+
+      <div class="input-form">
+        <label>Quantidade de posts</label>
+        <input type="number" id="qtd-posts" />
+      </div>
+      <div class="actions">
+        <button id="botao-postar">Postar</button>
+        <button id="deletar">Deletar Ultimo Post</button>
+      </div>
+
+      <p>Posts</p>
+      <ul id="lista-de-posts"></ul>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
