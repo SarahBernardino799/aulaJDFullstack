@@ -8,7 +8,7 @@ const botaoDeletar = document.getElementById("deletar");
 const listDePosts = document.getElementById("lista-de-posts");
 
 botaoPostar.addEventListener(
-
+"click",
   function postar() {
  
     for (let x = 1; x <= inputQtdPosts.value; x++) {
@@ -18,7 +18,7 @@ botaoPostar.addEventListener(
 
       const nomeElemento = document.createElement("p");
       nomeElemento.textContent = nome;
-      const tituloElemento = document.createElement("h2");
+      const tituloElemento = document.createElement("h3");
       tituloElemento.textContent = titulo;
       const mensagemElemento = document.createElement("small");
       mensagemElemento.textContent = mensagem;
